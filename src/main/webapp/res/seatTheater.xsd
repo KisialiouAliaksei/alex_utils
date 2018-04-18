@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/theater" xmlns:tns="http://www.example.org/theater">
+
+<element name="theater">
+<complexType>
+<sequence>
+<element name="seatClass" type="tns:SeatClass" minOccurs="1" maxOccurs="unbounded"/>
+</sequence>
+</complexType>
+</element>
+
+<complexType name="SeatClass">
+<attribute name="category" type="string" use="required"/>
+<attribute name="price" type="nonNegativeInteger" use="required"/>
+<attribute name="amount" type="nonNegativeInteger" use="required"/>
+</complexType>
+
+</schema>

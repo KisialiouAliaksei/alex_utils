@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/theater" xmlns:tns="http://www.example.org/theater">
+
+    <element name="theater">
+        <complexType>
+            <sequence>
+                <element name="premiere" type="tns:Premiere" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+
+    <complexType name="Premiere">
+        <sequence>
+            <element name="date" type="tns:Date" minOccurs="1" maxOccurs="unbounded"/>
+        </sequence>
+        <attribute name="name" type="string" use="required"/>
+        <attribute name="genre" type="string" use="required"/>
+        <attribute name="author" type="string" use="required"/>
+        <attribute name="description" type="string" use="required"/>
+
+
+    </complexType>
+    <simpleType name="Date">
+        <restriction base="date">
+            <pattern value="[0-9]{4}\-[0-1]*[0-9]\-[0-3]*[0-9]"/>
+        </restriction>
+    </simpleType>
+
+</schema>

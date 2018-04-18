@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:theater xmlns:tns="http://www.example.org/theater" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/theater premiere.xsd ">
+
+    <premiere name="Zombie Resurrection" genre="horror" author="Jake Hawkins"
+              description = "Fifteen months after the zombie apocalypse, and a group of survivors are forced to take
+              refuge in an abandoned school, where they discover a mysterious zombie with the power to bring the undead
+               back to life.">
+        <date>2016-07-20</date>
+        <date>2016-07-21</date>
+        <date>2016-07-22</date>
+        <date>2016-07-23</date>
+        <date>2016-07-24</date>
+    </premiere>
+    <premiere name="The Pyramid" genre="horror" author="Grégory Levasseur" description="
+    In times of turbulence and confusion in Egypt, an American team of archaeologists is digging a three-side pyramid
+     in the desert. The engineer Zahir sends his robot to explore the interior while the archaeologists Nora and her
+     father Holden; the video producer Sunni; and the cameraman Fitzie record and analyze the image. ">
+        <date>2016-07-25</date>
+        <date>2016-07-26</date>
+        <date>2016-07-27</date>
+        <date>2016-07-28</date>
+        <date>2016-07-29</date>
+    </premiere>
+    <premiere name="The Lego Movie" genre="animation" author="Phil Lord, Christopher Miller"
+              description="The LEGO Movie is a 3D animated film which follows lead character, Emmet a completely ordinary
+               LEGO mini-figure whois identified as the most extraordinary person and the key to saving the Lego universe.
+                Emmet and his friends go on an epic journey to stop the evil tyrant, Lord Business.">
+        <date>2016-08-01</date>
+        <date>2016-08-02</date>
+        <date>2016-08-03</date>
+        <date>2016-08-04</date>
+        <date>2016-08-05</date>
+    </premiere>
+    <premiere name="The Guest" genre="Mystery, Thriller" author="Adam Wingard"
+              description="A soldier introduces himself to the Peterson family, claiming to be a friend of their
+              son who died in action. After the young man is welcomed into their home, a series of accidental deaths
+              seem to be connected to his presence.">
+        <date>2016-08-06</date>
+        <date>2016-08-07</date>
+        <date>2016-08-08</date>
+        <date>2016-08-09</date>
+        <date>2016-08-10</date>
+    </premiere>
+
+</tns:theater>

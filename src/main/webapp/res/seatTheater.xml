@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:theater xmlns:tns="http://www.example.org/theater" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/theater seatTheater.xsd ">
+  <seatClass category="vip-class" price="100000" amount="10"/>
+  <seatClass category="first-class" price="70000" amount="20"/>
+  <seatClass category="second-class" price="50000" amount="40"/>
+</tns:theater>
